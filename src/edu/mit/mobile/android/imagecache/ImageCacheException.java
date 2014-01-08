@@ -17,14 +17,16 @@ package edu.mit.mobile.android.imagecache;
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
  */
-public class ImageCacheException extends Exception {
+public class ImageCacheException extends Exception
+{
 
-    /**
+	/**
      *
      */
-    private static final long serialVersionUID = 997874306474290980L;
+	private static final long serialVersionUID = 997874306474290980L;
 
-    public ImageCacheException(String message) {
-        super(message);
-    }
+	public ImageCacheException(String message)
+	{
+		super(message);
+	}
 }
